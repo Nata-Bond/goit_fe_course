@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  color: #757575;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.header {
+  margin-bottom: 26px;
+}
+
+.nav {
+  padding: 78px;
+}
+
+.site-navigation {
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.site-navigation a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #5fb5f2;
+}
+
+.site-navigation li {
+  display: inline-block;
+}
+
+li.first {
+  margin-right: 125px;
+}
+li.second {
+  margin-right: 105px;
+}
+li.third {
+  margin-right: 95px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  line-height: auto;
+  margin-bottom: 30px;
+}
+
+article {
+  width: 420px;
+  display: inline-block;
+  margin-right: 56px;
+}
+
+article:nth-child(2n) {
+  margin-right: 0;
+}
+article p:last-child {
+  margin-bottom: 57px;
+}
+
+p.art-title {
+  color: #beb9ad;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+p {
+  margin-bottom: 138px;
+}
+
+footer {
+  text-align: center;
+}
+
+button {
+  color: #757575;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #ffffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 22px 20px 22px 20px;
+}
